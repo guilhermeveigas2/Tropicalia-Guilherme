@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const botaoDeacessibilidade = document.getElementById('botao-acessibilidade');
     const opcoesDeacessibilidade = document.getElementById('opcoes-acessibilidade');
 
-    botaoDeacessibilidade.addEventListener('click',function()){
+    botaoDeacessibilidade.addEventListener('click',function(){
         botaoDeacessibilidade.classList.toggle('rotacao-botao');
         opcoesDeacessibilidade.classList.toggle('apresenta-lista')
     })
